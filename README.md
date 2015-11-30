@@ -67,24 +67,6 @@ catch (GopayRestException $e)
 }
 ```
 
-##  Example - Get Payment State:
-```php
-try
-{
-	$response = GopayRest::getInstance('YOUR_CLIENT_ID',
-									   'YOUR_CLIENT_SECRET',
-									   'YOUR_GOID',
-									   'test')
-						 ->getPaymentState('PAYMENT_ID');
-
-	echo 'Payment state = ' . $response->state;
-}
-catch (GopayRestException $e)
-{
-	die($e->getMessage());
-}
-```
-
 ##  Example - Void Recurrence:
 ```php
 try
