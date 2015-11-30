@@ -21,7 +21,7 @@ try
 						 ->setCurrency('CZK')
 						 ->createPayment(
 							 array(
-								 'amount'            => '1000', //cents
+								 'amount'            => '2000', //cents
 								 'order_number'      => '001',
 								 'order_description' => 'pojisteni01',
 								 'items'             => array(
