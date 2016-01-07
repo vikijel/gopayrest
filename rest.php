@@ -25,7 +25,7 @@ class GopayRest
 	const CURL_MAX_LOOPS = 3;
 
 	/** @var array List of possible values of payment_instrument */
-	const PAYMENT_INSTRUMENTS = array(
+	public static $PAYMENT_INSTRUMENTS = array(
 		'BANK_ACCOUNT' => 'Bankovní převody',
 		'GOPAY'        => 'GoPay účet',
 		'MPAYMENT'     => 'Mplatba',
@@ -37,7 +37,7 @@ class GopayRest
 	);
 
 	/** @var array List of possible values of swift */
-	const SWIFTS = array(
+	public static $SWIFTS = array(
 		'BREXCZPP'     => 'mBank',
 		'CEKOCZPP'     => 'ČSOB',
 		'CEKOCZPP-ERA' => 'ERA',
@@ -56,13 +56,13 @@ class GopayRest
 	);
 
 	/** @var array List of possible values of currency */
-	const CURRENCIES = array(
+	public static $CURRENCIES = array(
 		'CZK' => 'Česká koruna',
 		'EUR' => 'Euro'
 	);
 
 	/** @var array List of possible values of lang */
-	const LANGS = array(
+	public static $LANGS = array(
 		'CS' => 'Čeština',
 		'DE' => 'German',
 		'EN' => 'English',
