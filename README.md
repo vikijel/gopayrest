@@ -1,4 +1,7 @@
 #   GopayRest (lib_gopay)
+
+## OBSOLETE / DEPRECATED / NOT MAINTAINED => GOTO: https://github.com/gopaycommunity/gopay-php-api
+
 -   PHP Library for Gopay payments integrations
     -   Just include the rest.php file and use GopayRest class in your PHP code
 -   Installation xml manifest for Joomla! CMS attached 
